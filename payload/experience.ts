@@ -16,10 +16,10 @@ const experience: IExperience.Payload = {
       skillKeywords: ['Node.js', 'TypeScript', 'Express.js', 'Mashup API', 'AWS'],
     },
     {
-      title: 'Bar Co., Ltd.',
-      position: 'Software Enginner',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
+      title: '코그콤',
+      position: '데이터 엔지니어',
+      startedAt: '2021-07',
+      endedAt: '2021-09',
       descriptions: [
         'Online Commerce IT Startup',
         'Development of reservation system and service worker',

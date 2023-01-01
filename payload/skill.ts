@@ -4,27 +4,19 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
-      level: 3,
-    },
-    {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
+      title: 'Python(Django)',
       level: 2,
     },
     {
-      title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-    {
       title: 'C/C++',
+      level: 2,
+    },
+    {
+      title: 'AWS',
+      level: 1,
+    },
+    {
+      title: 'Java',
       level: 1,
     },
   ],
@@ -35,19 +27,15 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 3,
-    },
-    {
-      title: 'Oracle',
       level: 2,
     },
     {
-      title: 'Redis',
+      title: 'PostgreSQL',
       level: 2,
     },
     {
       title: 'MongoDB',
-      level: 1,
+      level: 2,
     },
   ],
 };
@@ -56,20 +44,12 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
-    },
-    {
-      title: 'React.js',
-      level: 2,
-    },
-    {
       title: 'javascript',
-      level: 2,
+      level: 1,
     },
     {
       title: 'HTML/CSS',
-      level: 2,
+      level: 1,
     },
   ],
 };
@@ -81,19 +61,16 @@ const etc: ISkill.Skill = {
       title: 'Ubuntu',
     },
     {
-      title: 'Vim',
+      title: 'AWS',
     },
     {
-      title: 'Security',
+      title: 'Docker',
     },
     {
       title: 'VS Code',
     },
     {
-      title: 'Jira',
-    },
-    {
-      title: 'Confluence',
+      title: 'Git/Github',
     },
   ],
 };

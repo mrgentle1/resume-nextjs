@@ -10,15 +10,14 @@ const etc: IEtc.Payload = {
       startedAt: '2015-05',
     },
     {
-      title: 'IT Education Service Activities',
-      subTitle: 'Wrold Friends IT Volunteer',
-      startedAt: '2013-07',
-      endedAt: '2013-08',
+      title: '임베디드 소프트웨어 경진대회 휴머노이드 부문',
+      subTitle: '최우수상',
+      startedAt: '2021-12',
     },
     {
-      title: 'Information Olympiad',
-      subTitle: 'Silver Prize',
-      startedAt: '2008-05',
+      title: 'SQLD',
+      subTitle: '자격증 취득',
+      startedAt: '2021-06',
     },
   ],
 };
