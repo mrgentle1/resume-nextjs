@@ -1,6 +1,5 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/xd.png';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -19,9 +18,9 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title:
+        'Web에 공개되어 있는 이력서에는 휴대전화 번호를 기재하지 않았습니다. 메일로 연락 부탁드립니다.',
       icon: faPhone,
-      badge: true,
     },
     {
       title: 'https://github.com/mrgentle1',
@@ -40,8 +39,7 @@ const profile: IProfile.Payload = {
     // },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
+    title: '산업기능요원 보충역 신규 편입을 희망합니다.',
   },
 };
 
