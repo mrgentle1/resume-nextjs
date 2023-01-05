@@ -5,11 +5,6 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: 'Capstone Design Contest',
-      subTitle: 'Grand Prize',
-      startedAt: '2015-05',
-    },
-    {
       title: '임베디드 소프트웨어 경진대회 휴머노이드 부문',
       subTitle: '최우수상',
       startedAt: '2021-12',

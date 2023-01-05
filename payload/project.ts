@@ -53,18 +53,7 @@ const project: IProject.Payload = {
         { content: 'https://bzero.cf/', href: 'https://bzero.cf/' },
       ],
     },
-    {
-      title: 'Bzero',
-      startedAt: '2022-07',
-      endedAt: '2022-09',
-      where: 'Bar Co., LTD.',
-      descriptions: [
-        { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-        { content: 'Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor' },
-        { content: 'Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien' },
-        { content: 'Proin bibendum non nibh eu aliquet' },
-      ],
-    },
+    
   ],
 };
 
