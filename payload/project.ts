@@ -53,7 +53,6 @@ const project: IProject.Payload = {
         { content: 'https://bzero.cf/', href: 'https://bzero.cf/' },
       ],
     },
-    
   ],
 };
 
