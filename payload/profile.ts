@@ -19,7 +19,7 @@ const profile: IProfile.Payload = {
     },
     {
       title:
-        'Web에 공개되어 있는 이력서에는 휴대전화 번호를 기재하지 않았습니다. 메일로 연락 부탁드립니다.',
+        '010-6601-6350',
       icon: faPhone,
     },
     {

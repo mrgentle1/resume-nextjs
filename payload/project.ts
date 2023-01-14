@@ -19,6 +19,29 @@ const project: IProject.Payload = {
       ],
     },
     {
+      title: '지능형 휴머노이드',
+      startedAt: '2021-06',
+      endedAt: '2021-12',
+      where: '임베디드 SW 경진대회 휴머노이드 부문',
+      descriptions: [
+        { content: '이족보행 로봇을 이용하여 재난 및 사고 상황에 대응할 수 있도록 하였습니다.' },
+        {
+          content:
+            '영상처리 및 로봇의 움직임 제어에 관련된 SW를 개발하였으며, 저는 로봇의 움직임 제어 파트를 중점적으로 맡았습니다.',
+        },
+        {
+          content:
+            'Python OpenCV를 활용하여 로봇에 있는 카메라를 통해 받아온 영상 데이터를 처리하고, 이를 바탕으로 BASIC기반의 로봇 프로그래밍 언어와 Python으로 로봇의 움직임을 제어할 수 있도록 하였습니다. ',
+        },
+        {
+          content:
+            '최우수상을 수상하였습니다.'
+        },
+        { content: 'https://www.eswcontest.or.kr/data/award.php?ptype=view&idx=4254&page=1&code=award&category=47',
+        href: 'https://www.eswcontest.or.kr/data/award.php?ptype=view&idx=4254&page=1&code=award&category=47', },
+      ],
+    },
+    {
       title: 'LookOut!',
       startedAt: '2022-07',
       endedAt: '2022-12',
@@ -59,7 +82,8 @@ const project: IProject.Payload = {
           content:
             '회원정보 페이지의 한줄 소개, 프로필 이미지, 출석 정보 등을 고려하여 모델을 설계하였고 회원정보, 로그인 API를 담당하여 구현하였습니다.',
         },
-        { content: 'https://bzero.cf/', href: 'https://bzero.cf/' },
+        // { content: 'https://bzero.cf/', href: 'https://bzero.cf/' },
+        // { content: 'https://github.com/People-zero/Bzero', href: 'https://github.com/People-zero/Bzero' },
       ],
     },
   ],

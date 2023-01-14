@@ -5,7 +5,7 @@ const backend: ISkill.Skill = {
   items: [
     {
       title: 'Python(Django)',
-      level: 2,
+      level: 3,
     },
     {
       title: 'C/C++',
@@ -13,7 +13,7 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'AWS',
-      level: 1,
+      level: 2,
     },
     {
       title: 'Java',
@@ -61,10 +61,13 @@ const etc: ISkill.Skill = {
       title: 'Ubuntu',
     },
     {
-      title: 'AWS',
+      title: 'Docker',
     },
     {
-      title: 'Docker',
+      title: 'Jupyter',
+    },
+    {
+      title: 'GCP',
     },
     {
       title: 'VS Code',
