@@ -49,7 +49,7 @@ const frontend: ISkill.Skill = {
     },
     {
       title: 'HTML/CSS',
-      level: 1,
+      level: 2,
     },
   ],
 };
@@ -81,7 +81,8 @@ const etc: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [backend, database, frontend, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  tooltip:
+    '1: 기초 수준,\n2: 인터넷 튜토리얼나 공식 문서 등을 참고해 문제를 해결하는 수준,\n3: 직접 코드 분석을 통해 문제 해결을 시도하는 수준',
 };
 
 export default skill;

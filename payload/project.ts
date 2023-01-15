@@ -35,10 +35,10 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '최우수상을 수상하였습니다.'
+            'https://www.eswcontest.or.kr/data/award.php?ptype=view&idx=4254&page=1&code=award&category=47',
+          href:
+            'https://www.eswcontest.or.kr/data/award.php?ptype=view&idx=4254&page=1&code=award&category=47',
         },
-        { content: 'https://www.eswcontest.or.kr/data/award.php?ptype=view&idx=4254&page=1&code=award&category=47',
-        href: 'https://www.eswcontest.or.kr/data/award.php?ptype=view&idx=4254&page=1&code=award&category=47', },
       ],
     },
     {
@@ -58,6 +58,10 @@ const project: IProject.Payload = {
         {
           content:
             '데이터베이스는 Firebase Realtime DB를 사용하였고 기기 등록 및 삭제와 같은 기능을 구현하였습니다.',
+        },
+        {
+          content:
+            '음성 데이터를 기기별로 실시간으로 수음하고 데이터베이스로 넣는 과정에서 데이터 관리와 모델 학습, 기기와 어플간의 등록을 위한 모듈 작성 등을 경험하였습니다.',
         },
         {
           content: 'https://github.com/KOSS-LOOK-OUT/LookOut_Device',

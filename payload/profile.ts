@@ -1,6 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/xd.png';
+import image from '../asset/김준영.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -18,8 +18,7 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title:
-        '010-6601-6350',
+      title: '010-6601-6350',
       icon: faPhone,
     },
     {
