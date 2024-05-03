@@ -90,6 +90,28 @@ const project: IProject.Payload = {
         // { content: 'https://github.com/People-zero/Bzero', href: 'https://github.com/People-zero/Bzero' },
       ],
     },
+    {
+      title: 'InterMax',
+      startedAt: '2023-09',
+      // endedAt: '2022-09',
+      where: 'EXEM',
+      descriptions: [
+        {
+          content: 'Restful API 개발 및 데이터 파이프라인 구축을 담당하였습니다. ',
+        },
+        {
+          content:
+            'kafka, Clickhouse, GRPC를 활용한 분산 데이터 파이프라인 구축',
+        },
+        {
+          content:
+            '회원정보 페이지의 한줄 소개, 프로필 이미지, 출석 정보 등을 고려하여 모델을 설계하였고 회원정보, 로그인 API를 담당하여 구현하였습니다.',
+        },
+        // { content: 'https://bzero.cf/', href: 'https://bzero.cf/' },
+        // { content: 'https://github.com/People-zero/Bzero', href: 'https://github.com/People-zero/Bzero' },
+      ],
+    },
+
   ],
 };
 

@@ -1,6 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/김준영.jpg';
+import image from '../asset/me.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -38,7 +38,7 @@ const profile: IProfile.Payload = {
     // },
   ],
   notice: {
-    title: '산업기능요원 보충역 신규 편입을 희망합니다.',
+    title: '',
   },
 };
 

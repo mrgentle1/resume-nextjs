@@ -16,9 +16,9 @@ const backend: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'Java',
-      level: 1,
-    },
+      title: 'Java(Spring)',
+      level: 3,
+    }
   ],
 };
 
@@ -35,8 +35,12 @@ const database: ISkill.Skill = {
     },
     {
       title: 'MongoDB',
-      level: 2,
+      level: 1,
     },
+    {
+      title: 'Clickhouse',
+      level: 3
+    }
   ],
 };
 
@@ -64,16 +68,22 @@ const etc: ISkill.Skill = {
       title: 'Docker',
     },
     {
+      title: 'GRPC',
+    },
+    {
+      title: 'Kafka',
+    },
+    {
+      title: 'Kubenetes',
+    },
+    {
       title: 'Jupyter',
     },
     {
       title: 'GCP',
     },
     {
-      title: 'VS Code',
-    },
-    {
-      title: 'Git/Github',
+      title: 'Git',
     },
   ],
 };

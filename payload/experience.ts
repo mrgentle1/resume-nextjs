@@ -28,6 +28,16 @@ const experience: IExperience.Payload = {
       ],
       skillKeywords: ['Python', 'MySQL', 'Django', 'Docker'],
     },
+    {
+      title: 'EXEM',
+      position: '백엔드 개발자'
+      startedAt: '2023-06',
+      // endedAt: '',
+      descriptions: [
+        'DPM, APM 통합 관리 시스템 인터맥스 개발',
+        'kafka, Clickhouse, GRPC를 활용한 분산 데이터 파이프라인 구축',
+      ],
+    }
   ],
 };
 
