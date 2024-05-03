@@ -18,7 +18,7 @@ const backend: ISkill.Skill = {
     {
       title: 'Java(Spring)',
       level: 3,
-    }
+    },
   ],
 };
 
@@ -39,8 +39,8 @@ const database: ISkill.Skill = {
     },
     {
       title: 'Clickhouse',
-      level: 3
-    }
+      level: 3,
+    },
   ],
 };
 

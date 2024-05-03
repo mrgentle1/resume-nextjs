@@ -100,8 +100,7 @@ const project: IProject.Payload = {
           content: 'Restful API 개발 및 데이터 파이프라인 구축을 담당하였습니다. ',
         },
         {
-          content:
-            'kafka, Clickhouse, GRPC를 활용한 분산 데이터 파이프라인 구축',
+          content: 'kafka, Clickhouse, GRPC를 활용한 분산 데이터 파이프라인 구축',
         },
         {
           content:
@@ -111,7 +110,6 @@ const project: IProject.Payload = {
         // { content: 'https://github.com/People-zero/Bzero', href: 'https://github.com/People-zero/Bzero' },
       ],
     },
-
   ],
 };
 
