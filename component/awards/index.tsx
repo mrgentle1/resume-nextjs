@@ -3,17 +3,17 @@ import { PropsWithChildren } from 'react';
 import { CommonSection } from '../common/CommonSection';
 import { EmptyRowCol } from '../common';
 import { CommonRows } from '../common/CommonRow';
-import { IEducation } from './IEducation';
 import { IRow } from '../common/IRow';
 import Util from '../common/Util';
+import { IEtc } from '../etc/IEtc';
 import { PreProcessingComponent } from '../common/PreProcessingComponent';
 
-type Payload = IEducation.Payload;
-type Item = IEducation.Item;
+type Payload = IEtc.Payload;
+type Item = IEtc.Item;
 
-export const Education = {
+export const Awards = {
   Component: ({ payload }: PropsWithChildren<{ payload: Payload }>) => {
-    return PreProcessingComponent<Payload>({
+    return PreProcessingComponent<IEtc.Payload>({
       payload,
       component: Component,
     });
@@ -22,13 +22,13 @@ export const Education = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="EDUCATION">
-      <EducationRow payload={payload} />
+    <CommonSection title="AWARDS">
+      <AwardsRow payload={payload} />
     </CommonSection>
   );
 }
 
-function EducationRow({ payload }: PropsWithChildren<{ payload: Payload }>) {
+function AwardsRow({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
     <EmptyRowCol>
       {payload.list.map((item, index) => {
@@ -40,23 +40,25 @@ function EducationRow({ payload }: PropsWithChildren<{ payload: Payload }>) {
 
 function serialize(item: Item): IRow.Payload {
   const DATE_FORMAT = Util.LUXON_DATE_FORMAT;
-  const [startedAt] = [item.startedAt].map((at) =>
-    DateTime.fromFormat(at, DATE_FORMAT.YYYY_LL).toFormat(DATE_FORMAT.YYYY_DOT_LL),
+  const startedAt = DateTime.fromFormat(item.startedAt, DATE_FORMAT.YYYY_LL).toFormat(
+    DATE_FORMAT.YYYY_DOT_LL,
   );
-
-  const endedAt =
-    item.endedAt === undefined
-      ? ' '
-      : [item.endedAt].map((at) =>
-          DateTime.fromFormat(at, DATE_FORMAT.YYYY_LL).toFormat(DATE_FORMAT.YYYY_DOT_LL),
-        );
+  const title = (() => {
+    if (item.endedAt) {
+      const endedAt = DateTime.fromFormat(item.endedAt, DATE_FORMAT.YYYY_LL).toFormat(
+        DATE_FORMAT.YYYY_DOT_LL,
+      );
+      return `${startedAt} ~ ${endedAt}`;
+    }
+    return startedAt;
+  })();
 
   return {
-    left: { title: `${startedAt} ~ ${endedAt}` },
+    left: {
+      title,
+    },
     right: {
-      title: item.title,
-      subTitle: item.subTitle,
-      descriptions: item.descriptions?.map((description) => ({ content: description })),
+      ...item,
     },
   };
 }

@@ -5,45 +5,33 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
-      title: 'Linux Foundation',
+      title: '코그콤',
       positions: [
         {
-          title: 'System Engineer',
-          startedAt: '1996-05',
+          title: '데이터 엔지니어(학부 인턴)',
+          startedAt: '2021-07',
+          endedAt: '2021-09',
           descriptions: [
-            'Steering Kernel patching and updates for various distributions',
-            'Automating deployment and integration processes for Linux servers',
-            'Spearheading initiatives to enhance Linux kernel security',
-            'Collaborating with global developers to coordinate code contributions',
+            '논문 유사도 검사 서비스 알고리즘을 연구',
+            '데이터 클러스터링, 분석 및 활용을 위한 이커머스 데이터 비동기 수집 및 전처리',
+            '일정시간마다 자동으로 데이터를 갱신하기 위해 Crontab 기능을 활용하여 mongoDB로 데이터 수집 및 RDBMS로 데이터의 포맷을 일정하게 수집하도록 하였습니다.',
+            '데이터베이스 연동, DB 서버 관리 등을 경험하였습니다.',
           ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Security', 'Automation'],
-        },
-        {
-          title: 'System Engineer Intern',
-          startedAt: '1996-02',
-          endedAt: '1996-05',
-          descriptions: [
-            'Assisted senior engineers in maintaining and updating kernel patches for Linux distributions',
-            'Supported deployment and integration tasks for Linux server environments',
-            'Conducted research on Linux kernel security practices and presented findings to the team',
-          ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Support', 'Research'],
+          skillKeywords: ['Linux', 'Python', 'PostgreSQL', 'Django', 'mongoDB', 'AWS'],
         },
       ],
     },
     {
-      title: 'Open Source Community',
+      title: 'EXEM',
       positions: [
         {
-          title: 'System Advocate and Developer',
-          startedAt: '2010-06',
-          endedAt: '2018-01',
+          title: '백엔드 개발자',
+          startedAt: '2023-06',
           descriptions: [
-            'Promoted the use and development of Linux globally.',
-            'Developed automated scripts to streamline system configuration.',
-            'Facilitated live patching systems, reducing downtime.',
+            'DPM, APM 통합 관리 시스템 인터맥스 개발',
+            'kafka, Clickhouse, gRPC를 활용한 분산 데이터 파이프라인 구축',
           ],
-          skillKeywords: ['Open Source', 'Linux', 'AWS', 'RDBMS'],
+          skillKeywords: ['Java', 'gRPC', 'ClickHouse', 'PostgreSQL', 'Kafka', 'Redis', 'Spring Boot'],
         },
       ],
     },
