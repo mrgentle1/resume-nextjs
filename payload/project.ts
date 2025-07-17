@@ -97,19 +97,23 @@ const project: IProject.Payload = {
       where: 'EXEM',
       descriptions: [
         {
-          content: '엔터프라이즈 APM(Application Performance Monitoring) 시스템의 분산 데이터 파이프라인 구축 담당',
+          content:
+            '엔터프라이즈 APM(Application Performance Monitoring) 시스템의 분산 데이터 파이프라인 구축 담당',
         },
         {
-          content: 'Java/OS/Database/Middleware 등 다양한 에이전트로부터 실시간 메트릭 수집 및 처리 시스템 개발',
+          content:
+            'Java/OS/Database/Middleware 등 다양한 에이전트로부터 실시간 메트릭 수집 및 처리 시스템 개발',
         },
         {
-          content: 'Kafka 기반 비동기 메시지 처리, ClickHouse 시계열 데이터베이스, Redis 캐싱을 활용한 고성능 데이터 파이프라인 설계'
+          content:
+            'Kafka 기반 비동기 메시지 처리, ClickHouse 시계열 데이터베이스, Redis 캐싱을 활용한 고성능 데이터 파이프라인 설계',
         },
         {
-          content: 'Netty 기반 TCP 서버 및 GRPC를 통한 대용량 실시간 모니터링 데이터 수집 아키텍처 구현'
-        }
+          content:
+            'Netty 기반 TCP 서버 및 GRPC를 통한 대용량 실시간 모니터링 데이터 수집 아키텍처 구현',
+        },
       ],
-    }
+    },
   ],
 };
 

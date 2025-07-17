@@ -69,8 +69,8 @@ const infrastructure: ISkill.Skill = {
     },
     {
       title: 'CI/CD Pipelines',
-      level: 1
-    }
+      level: 1,
+    },
   ],
 };
 
@@ -121,7 +121,8 @@ const tools: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [language, database, infrastructure, frontend, tools],
-  tooltip: '1: 기초 수준,\n2: 인터넷 튜토리얼나 공식 문서 등을 참고해 문제를 해결하는 수준,\n3: 직접 코드 분석을 통해 문제 해결을 시도하는 수준',
+  tooltip:
+    '1: 기초 수준,\n2: 인터넷 튜토리얼나 공식 문서 등을 참고해 문제를 해결하는 수준,\n3: 직접 코드 분석을 통해 문제 해결을 시도하는 수준',
 };
 
 export default skill;

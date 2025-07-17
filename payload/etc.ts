@@ -6,7 +6,7 @@ const etc: IEtc.Payload = {
   list: [
     {
       title: 'KOSS',
-      subTitle: "국민대학교 소프트웨어학부 오픈소스소프트웨어 동아리 회장",
+      subTitle: '국민대학교 소프트웨어학부 오픈소스소프트웨어 동아리 회장',
       startedAt: '2021-06',
       endedAt: '2022-12',
     },
