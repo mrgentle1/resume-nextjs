@@ -38,19 +38,19 @@ const project: IProject.Payload = {
       where: 'EXEM',
       descriptions: [
         {
-          content: 
-            'Master–Worker 아키텍처 기반의 테스트 분산 실행 및 스케줄링 설계'
+          content: 'Master–Worker 아키텍처 기반의 테스트 분산 실행 및 스케줄링 설계',
         },
         {
-          content: 
-            '격리된 컨테이너 환경에서 사내 제품 자동 설치·구성 및 사전 정의 시나리오 스크립트 순차/병렬 실행' 
+          content:
+            '격리된 컨테이너 환경에서 사내 제품 자동 설치·구성 및 사전 정의 시나리오 스크립트 순차/병렬 실행',
         },
         {
-          content: 'Pytest, Playwright 기반의 E2E 테스트 환경 구축'
+          content: 'Pytest, Playwright 기반의 E2E 테스트 환경 구축',
         },
         {
-          content: 'Django 기반 실행 관리·이력 조회·리포트 열람 RESTful API 개발 (실패 로그·스크린샷 등 아티팩트 연동)'
-        }
+          content:
+            'Django 기반 실행 관리·이력 조회·리포트 열람 RESTful API 개발 (실패 로그·스크린샷 등 아티팩트 연동)',
+        },
       ],
     },
     {
