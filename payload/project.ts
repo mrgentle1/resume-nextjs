@@ -4,41 +4,53 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'ZIKIME',
-      startedAt: '2021-06',
-      endedAt: '2021-12',
-      where: '동아리 프로젝트 및 공모전',
+      title: 'InterMax',
+      startedAt: '2023-09',
+      // endedAt: '2022-09',
+      where: 'EXEM',
       descriptions: [
-        { content: '아동과 치매노인을 위한 이동식 카메라 및 실시간 영상 스트리밍 서비스입니다.' },
         {
           content:
-            '실시간으로 사용자가 웹을 통해 카메라로 녹화된 영상을 볼 수 있도록 구현하였습니다.',
+            '엔터프라이즈 APM(Application Performance Monitoring) 시스템의 분산 데이터 파이프라인 구축 담당',
         },
-        // { content: 'https://github.com/ZIKIME2021/zikime-server',
-        // href: 'https://github.com/ZIKIME2021/zikime-server', },
+        {
+          content:
+            'Java/OS/Database/Middleware 등 다양한 에이전트로부터 실시간 메트릭 수집 및 처리 시스템 개발',
+        },
+        {
+          content:
+            'Kafka 기반 비동기 메시지 처리, ClickHouse 시계열 데이터베이스, Redis 캐싱을 활용한 고성능 데이터 파이프라인 설계 및 최적화',
+        },
+        {
+          content:
+            'Netty 기반 TCP 서버 및 gRPC를 통한 대용량 실시간 모니터링 데이터 수집 아키텍처 구현',
+        },
+        {
+          content: '인터맥스 솔루션 소개 자료',
+          href: 'https://ex-em.com/product/intermax',
+        },
       ],
     },
     {
-      title: '지능형 휴머노이드',
-      startedAt: '2021-06',
-      endedAt: '2021-12',
-      where: '임베디드 SW 경진대회 휴머노이드 부문',
+      title: '사내 테스트 자동화 시스템 구축',
+      startedAt: '2023-06',
+      endedAt: '2023-09',
+      where: 'EXEM',
       descriptions: [
-        { content: '이족보행 로봇을 이용하여 재난 및 사고 상황에 대응할 수 있도록 하였습니다.' },
         {
-          content:
-            '영상처리 및 로봇의 움직임 제어에 관련된 SW를 개발하였으며, 저는 로봇의 움직임 제어 파트를 중점적으로 맡았습니다.',
+          content: 
+            'Master–Worker 아키텍처 기반의 테스트 분산 실행 및 스케줄링 설계'
         },
         {
-          content:
-            'Python OpenCV를 활용하여 로봇에 있는 카메라를 통해 받아온 영상 데이터를 처리하고, 이를 바탕으로 BASIC기반의 로봇 프로그래밍 언어와 Python으로 로봇의 움직임을 제어할 수 있도록 하였습니다. ',
+          content: 
+            '격리된 컨테이너 환경에서 사내 제품 자동 설치·구성 및 사전 정의 시나리오 스크립트 순차/병렬 실행' 
         },
         {
-          content:
-            'https://www.eswcontest.or.kr/data/award.php?ptype=view&idx=4254&page=1&code=award&category=47',
-          href:
-            'https://www.eswcontest.or.kr/data/award.php?ptype=view&idx=4254&page=1&code=award&category=47',
+          content: 'Pytest, Playwright 기반의 E2E 테스트 환경 구축'
         },
+        {
+          content: 'Django 기반 실행 관리·이력 조회·리포트 열람 RESTful API 개발 (실패 로그·스크린샷 등 아티팩트 연동)'
+        }
       ],
     },
     {
@@ -88,30 +100,6 @@ const project: IProject.Payload = {
         },
         // { content: 'https://bzero.cf/', href: 'https://bzero.cf/' },
         // { content: 'https://github.com/People-zero/Bzero', href: 'https://github.com/People-zero/Bzero' },
-      ],
-    },
-    {
-      title: 'InterMax',
-      startedAt: '2023-09',
-      // endedAt: '2022-09',
-      where: 'EXEM',
-      descriptions: [
-        {
-          content:
-            '엔터프라이즈 APM(Application Performance Monitoring) 시스템의 분산 데이터 파이프라인 구축 담당',
-        },
-        {
-          content:
-            'Java/OS/Database/Middleware 등 다양한 에이전트로부터 실시간 메트릭 수집 및 처리 시스템 개발',
-        },
-        {
-          content:
-            'Kafka 기반 비동기 메시지 처리, ClickHouse 시계열 데이터베이스, Redis 캐싱을 활용한 고성능 데이터 파이프라인 설계',
-        },
-        {
-          content:
-            'Netty 기반 TCP 서버 및 GRPC를 통한 대용량 실시간 모니터링 데이터 수집 아키텍처 구현',
-        },
       ],
     },
   ],

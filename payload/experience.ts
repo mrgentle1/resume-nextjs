@@ -5,6 +5,30 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
+      title: 'EXEM',
+      positions: [
+        {
+          title: '백엔드 개발자',
+          startedAt: '2023-06',
+          descriptions: [
+            'DPM, APM 통합 관리 시스템 인터맥스 개발',
+            'kafka, Clickhouse, gRPC를 활용한 분산 데이터 파이프라인 구축',
+            '10만 TPS 고부하 환경에서의 안정적인 시스템 설계 및 구축',
+            'HA(High Availability) 지원을 통한 무중단 서비스 운영 환경 구현',
+          ],
+          skillKeywords: [
+            'Java',
+            'gRPC',
+            'ClickHouse',
+            'PostgreSQL',
+            'Kafka',
+            'Redis',
+            'Spring Boot',
+          ],
+        },
+      ],
+    },
+    {
       title: '코그콤',
       positions: [
         {
@@ -18,28 +42,6 @@ const experience: IExperience.Payload = {
             '데이터베이스 연동, DB 서버 관리 등을 경험하였습니다.',
           ],
           skillKeywords: ['Linux', 'Python', 'PostgreSQL', 'Django', 'mongoDB', 'AWS'],
-        },
-      ],
-    },
-    {
-      title: 'EXEM',
-      positions: [
-        {
-          title: '백엔드 개발자',
-          startedAt: '2023-06',
-          descriptions: [
-            'DPM, APM 통합 관리 시스템 인터맥스 개발',
-            'kafka, Clickhouse, gRPC를 활용한 분산 데이터 파이프라인 구축',
-          ],
-          skillKeywords: [
-            'Java',
-            'gRPC',
-            'ClickHouse',
-            'PostgreSQL',
-            'Kafka',
-            'Redis',
-            'Spring Boot',
-          ],
         },
       ],
     },

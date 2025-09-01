@@ -1,5 +1,5 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { IProfile } from '../component/profile/IProfile';
 import image from '../asset/crop_me.png';
@@ -27,6 +27,10 @@ const profile: IProfile.Payload = {
     {
       link: 'https://github.com/mrgentle1',
       icon: faGithub,
+    },
+    {
+      link: 'https://www.linkedin.com/in/mrgentle1',
+      icon: faLinkedin,
     },
     // {
     //   link: 'https://www.facebook.com/groups/ubuntu.ko',
