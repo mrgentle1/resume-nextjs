@@ -4,7 +4,7 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'InterMax',
+      title: 'EtoE 거래 추적 및 성능 관리 시스템, \"InterMax\" 개발',
       startedAt: '2023-09',
       // endedAt: '2022-09',
       where: 'EXEM',
@@ -54,7 +54,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'LookOut!',
+      title: '장애인을 위한 인공지능 위험 안내 서비스, \"LookOut\" 개발',
       startedAt: '2022-07',
       endedAt: '2022-12',
       where: '동아리 프로젝트 및 공모전',

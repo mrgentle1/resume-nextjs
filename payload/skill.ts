@@ -74,20 +74,6 @@ const infrastructure: ISkill.Skill = {
   ],
 };
 
-const frontend: ISkill.Skill = {
-  category: 'Front-end',
-  items: [
-    {
-      title: 'javascript',
-      level: 1,
-    },
-    {
-      title: 'HTML/CSS',
-      level: 2,
-    },
-  ],
-};
-
 const tools: ISkill.Skill = {
   category: 'Tools & Others',
   items: [
@@ -120,7 +106,7 @@ const tools: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [language, database, infrastructure, frontend, tools],
+  skills: [language, database, infrastructure, tools],
   tooltip:
     '1: 기초 수준,\n2: 인터넷 튜토리얼나 공식 문서 등을 참고해 문제를 해결하는 수준,\n3: 직접 코드 분석을 통해 문제 해결을 시도하는 수준',
 };
