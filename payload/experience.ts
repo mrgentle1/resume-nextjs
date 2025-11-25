@@ -11,13 +11,14 @@ const experience: IExperience.Payload = {
           title: '백엔드 개발자 (Backend Lead 역할 수행)',
           startedAt: '2023-06',
           "descriptions": [
-            "DPM, APM 통합 관리 시스템 인터맥스 개발",
-            "Kafka, ClickHouse, gRPC를 활용한 분산 데이터 파이프라인 구축",
-            "10만 TPS 고부하 환경에서도 안정적으로 동작할 수 있도록 Kafka KRaft 클러스터를 구축하고, 토픽 별 파티션 분할 및 스케일 아웃 가능한 구조로 재설계하여 확장성을 확보",
-            "ClickHouse 클러스터링과 레플리카 구성을 통해 고가용성(HA)을 지원하고, 장애 발생 시에도 무중단 서비스 운영이 가능하도록 시스템을 개선"
+            "DPM, APM 통합 관리 시스템 인터맥스 설계 및 구현",
+            "Kafka, ClickHouse, gRPC 기반 분산 데이터 파이프라인 구축",
+            "10만 TPS 고부하 환경 대응 Kafka KRaft 클러스터 구축 및 토픽별 파티션 분할 스케일아웃 아키텍처 설계",
+            "ClickHouse 클러스터링 및 레플리카 구성을 통한 고가용성(HA) 지원 및 무중단 서비스 운영 시스템 구현"
           ],
           skillKeywords: [
             'Java',
+            'Protobuf',
             'gRPC',
             'ClickHouse',
             'PostgreSQL',
@@ -36,10 +37,9 @@ const experience: IExperience.Payload = {
           startedAt: '2021-07',
           endedAt: '2021-09',
           descriptions: [
-            '논문 유사도 검사 서비스 알고리즘을 연구',
-            '데이터 클러스터링, 분석 및 활용을 위한 이커머스 데이터 비동기 수집 및 전처리',
-            '일정시간마다 자동으로 데이터를 갱신하기 위해 Crontab 기능을 활용하여 mongoDB로 데이터 수집 및 RDBMS로 데이터의 포맷을 일정하게 수집하도록 하였습니다.',
-            '데이터베이스 연동, DB 서버 관리 등을 경험하였습니다.',
+            '데이터 클러스터링 분석 기반 이커머스 데이터 비동기 수집 및 전처리 구현',
+            'Crontab 기반 자동 데이터 갱신 시스템 구축 및 MongoDB-RDBMS 통합 데이터 포맷 관리',
+            '데이터베이스 연동 및 DB 서버 운영 관리',
           ],
           skillKeywords: ['Linux', 'Python', 'PostgreSQL', 'Django', 'mongoDB', 'AWS'],
         },
