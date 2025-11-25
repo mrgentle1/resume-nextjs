@@ -4,7 +4,7 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'EtoE 거래 추적 및 성능 관리 시스템, \"InterMax\" 개발',
+      title: 'EtoE 거래 추적 및 성능 관리 시스템, "InterMax" 개발',
       startedAt: '2023-09',
       // endedAt: '2022-09',
       where: 'EXEM',
@@ -54,7 +54,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '장애인을 위한 인공지능 위험 안내 서비스, \"LookOut\" 개발',
+      title: '장애인을 위한 인공지능 위험 안내 서비스, "LookOut" 개발',
       startedAt: '2022-07',
       endedAt: '2022-12',
       where: '동아리 프로젝트 및 공모전',
@@ -68,8 +68,7 @@ const project: IProject.Payload = {
             'Tensorflow 기반 음성 데이터 라벨링 및 모델 학습, TensorFlow Lite 변환을 통한 기기 내 실시간 추론 시스템 구현',
         },
         {
-          content:
-            'Firebase Realtime DB 기반 기기 등록 및 관리 시스템 설계 및 구현',
+          content: 'Firebase Realtime DB 기반 기기 등록 및 관리 시스템 설계 및 구현',
         },
         {
           content:
@@ -95,8 +94,7 @@ const project: IProject.Payload = {
             'ReactJS 프론트엔드 및 Django Rest Framework 백엔드 기반 웹 서비스 설계, axios API 통신 및 Firebase, AWS EC2-NGINX 기반 배포 시스템 구축',
         },
         {
-          content:
-            '회원정보 관리를 위한 데이터베이스 모델 설계 및 회원정보, 로그인 API 구현'
+          content: '회원정보 관리를 위한 데이터베이스 모델 설계 및 회원정보, 로그인 API 구현',
         },
         // { content: 'https://bzero.cf/', href: 'https://bzero.cf/' },
         // { content: 'https://github.com/People-zero/Bzero', href: 'https://github.com/People-zero/Bzero' },

@@ -10,11 +10,11 @@ const experience: IExperience.Payload = {
         {
           title: '백엔드 개발자 (Backend Lead 역할 수행)',
           startedAt: '2023-06',
-          "descriptions": [
-            "DPM, APM 통합 관리 시스템 인터맥스 설계 및 구현",
-            "Kafka, ClickHouse, gRPC 기반 분산 데이터 파이프라인 구축",
-            "10만 TPS 고부하 환경 대응 Kafka KRaft 클러스터 구축 및 토픽별 파티션 분할 스케일아웃 아키텍처 설계",
-            "ClickHouse 클러스터링 및 레플리카 구성을 통한 고가용성(HA) 지원 및 무중단 서비스 운영 시스템 구현"
+          descriptions: [
+            'DPM, APM 통합 관리 시스템 인터맥스 설계 및 구현',
+            'Kafka, ClickHouse, gRPC 기반 분산 데이터 파이프라인 구축',
+            '10만 TPS 고부하 환경 대응 Kafka KRaft 클러스터 구축 및 토픽별 파티션 분할 스케일아웃 아키텍처 설계',
+            'ClickHouse 클러스터링 및 레플리카 구성을 통한 고가용성(HA) 지원 및 무중단 서비스 운영 시스템 구현',
           ],
           skillKeywords: [
             'Java',
