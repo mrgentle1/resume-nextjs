@@ -4,7 +4,7 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'EtoE 거래 추적 및 성능 관리 시스템, "InterMax" 개발',
+      title: 'EtoE 거래 추적 및 성능 관리 시스템, "InterMax" 개발 및 유지보수',
       startedAt: '2023-09',
       // endedAt: '2022-09',
       where: 'EXEM',

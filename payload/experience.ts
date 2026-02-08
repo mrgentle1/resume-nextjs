@@ -8,7 +8,7 @@ const experience: IExperience.Payload = {
       title: 'EXEM',
       positions: [
         {
-          title: '백엔드 개발자 (Backend Lead 역할 수행)',
+          title: 'InterMax 백엔드 개발자',
           startedAt: '2023-06',
           descriptions: [
             'DPM, APM 통합 관리 시스템 인터맥스 설계 및 구현',

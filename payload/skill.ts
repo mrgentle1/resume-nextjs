@@ -9,7 +9,7 @@ const language: ISkill.Skill = {
     },
     {
       title: 'Python & Django',
-      level: 3,
+      level: 2,
     },
     {
       title: 'C/C++',
