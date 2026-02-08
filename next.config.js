@@ -4,6 +4,8 @@ const { homepage } = require('./package.json');
 const { NODE_ENV } = process.env;
 
 module.exports = {
+  output: 'export',
+  distDir: 'docs',
   assetPrefix: (() => {
     if (NODE_ENV === 'production' && homepage) {
       try {

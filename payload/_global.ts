@@ -6,7 +6,7 @@ const title = 'JunYoung - Backend Developer';
 const description = 'Java/Spring Boot와 Python/Django 기반 백엔드 개발자.';
 
 export const _global: IGlobal.Payload = {
-  favicon,
+  favicon: favicon.src,
   headTitle: title,
   seo: {
     title,
@@ -16,7 +16,7 @@ export const _global: IGlobal.Payload = {
       description,
       images: [
         {
-          url: previewImage,
+          url: previewImage.src,
           width: 800,
           height: 600,
           alt: 'JunYoung Backend Developer Resume',
