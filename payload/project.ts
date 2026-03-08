@@ -4,30 +4,84 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'EtoE 거래 추적 및 성능 관리 시스템, "InterMax" 개발 및 유지보수',
-      startedAt: '2023-09',
-      // endedAt: '2022-09',
-      where: 'EXEM',
+      title: 'PostgreSQL Partition Key 성능 개선',
+      startedAt: '2025-06',
+      endedAt: '2025-07',
+      where: 'EXEM · InterMax',
       descriptions: [
         {
           content:
-            '엔터프라이즈 APM(Application Performance Monitoring) 시스템 분산 데이터 파이프라인 설계 및 구축',
+            'QPS 30,000 이상 로그 테이블에서 발생하는 INSERT latency spike 원인 분석',
         },
         {
           content:
-            'Java/OS/Database/Middleware 에이전트 기반 실시간 메트릭 수집 및 처리 시스템 설계',
+            'pg_stat_activity, pg_locks 기반 LWLock 경합 분석 및 hash 기반 파티션 키 추가를 통한 데이터 분산',
+        },
+        {
+          content: 'INSERT latency 1,000ms → 100ms (약 90% 개선)',
+          weight: 'MEDIUM',
+        },
+      ],
+    },
+    {
+      title: '대용량 시계열 API 구조 개선 (SSE 전환)',
+      startedAt: '2025-03',
+      endedAt: '2025-04',
+      where: 'EXEM · InterMax',
+      descriptions: [
+        {
+          content:
+            'HTTP Polling 기반 시계열 조회 API를 SSE(Server-Sent Events) 스트리밍 구조로 전환',
         },
         {
           content:
-            'Kafka 기반 비동기 메시지 처리 및 ClickHouse 시계열 데이터베이스, Redis 캐싱 활용 고성능 데이터 파이프라인 설계 및 최적화',
+            '대용량 JSON 응답을 chunk 단위 전송 구조로 재설계하여 응답 데이터 직렬화 비용 절감',
         },
         {
           content:
-            'Netty 기반 TCP 서버 및 gRPC 활용 대용량 실시간 모니터링 데이터 수집 아키텍처 설계 및 구현',
+            'API 응답 크기 40MB → 5MB (87% 감소), CPU spike 완화 및 GC 안정성 개선',
+          weight: 'MEDIUM',
+        },
+      ],
+    },
+    {
+      title: '모놀리식 데이터 수집 서버 분리 및 리팩토링',
+      startedAt: '2024-09',
+      endedAt: '2025-03',
+      where: 'EXEM · InterMax',
+      descriptions: [
+        {
+          content:
+            'Master/Slave 구조가 결합된 모놀리식 수집 서버를 독립 서비스로 분리',
         },
         {
-          content: '인터맥스 솔루션 소개 자료',
-          href: 'https://ex-em.com/product/intermax',
+          content:
+            'Spring Boot 기반 서비스 구조로 재설계, polling while-loop 스케줄링을 Quartz Job 기반으로 전환',
+        },
+        {
+          content:
+            '코드 규모 954개 → 212개 파일 (78% 감소), 유지보수성 및 테스트 가능성 향상',
+          weight: 'MEDIUM',
+        },
+      ],
+    },
+    {
+      title: '레거시 DB 및 API 구조 리팩토링',
+      startedAt: '2024-03',
+      endedAt: '2024-09',
+      where: 'EXEM · InterMax',
+      descriptions: [
+        {
+          content:
+            '도메인 기준 데이터 모델 재설계 및 약 40개 테이블 구조 개선',
+        },
+        {
+          content:
+            '복잡한 JOIN 구조와 API 설계를 단순화하여 유지보수성 및 확장성 개선',
+        },
+        {
+          content: 'API endpoint 383개 → 187개 (51% 감소)',
+          weight: 'MEDIUM',
         },
       ],
     },
@@ -38,7 +92,8 @@ const project: IProject.Payload = {
       where: 'EXEM',
       descriptions: [
         {
-          content: 'Master–Worker 아키텍처 기반 테스트 분산 실행 및 스케줄링 시스템 설계',
+          content:
+            'Master–Worker 아키텍처 기반 테스트 분산 실행 및 스케줄링 시스템 설계',
         },
         {
           content:
@@ -51,53 +106,6 @@ const project: IProject.Payload = {
           content:
             'Django 기반 테스트 관리 및 리포트 시스템 RESTful API 설계 및 구현 (실패 로그·스크린샷 아티팩트 연동)',
         },
-      ],
-    },
-    {
-      title: '장애인을 위한 인공지능 위험 안내 서비스, "LookOut" 개발',
-      startedAt: '2022-07',
-      endedAt: '2022-12',
-      where: '동아리 프로젝트 및 공모전',
-      descriptions: [
-        {
-          content:
-            '청각장애인 대상 위험 소리 인식 및 진동 알림 전달 IOT 서비스 설계 (팀장 및 기기 파트 담당)',
-        },
-        {
-          content:
-            'Tensorflow 기반 음성 데이터 라벨링 및 모델 학습, TensorFlow Lite 변환을 통한 기기 내 실시간 추론 시스템 구현',
-        },
-        {
-          content: 'Firebase Realtime DB 기반 기기 등록 및 관리 시스템 설계 및 구현',
-        },
-        {
-          content:
-            '기기별 음성 데이터 실시간 수집 및 데이터베이스 저장, 데이터 관리 및 모델 학습, 기기-어플리케이션 연동 모듈 설계',
-        },
-        {
-          content: 'https://github.com/KOSS-LOOK-OUT/LookOut_Device',
-          href: 'https://github.com/KOSS-LOOK-OUT/LookOut_Device',
-        },
-      ],
-    },
-    {
-      title: 'Bzero',
-      startedAt: '2022-07',
-      endedAt: '2022-09',
-      where: '동아리 프로젝트 및 공모전',
-      descriptions: [
-        {
-          content: '제로웨이스터 대상 웹 플랫폼 서비스 백엔드 시스템 설계 및 개발',
-        },
-        {
-          content:
-            'ReactJS 프론트엔드 및 Django Rest Framework 백엔드 기반 웹 서비스 설계, axios API 통신 및 Firebase, AWS EC2-NGINX 기반 배포 시스템 구축',
-        },
-        {
-          content: '회원정보 관리를 위한 데이터베이스 모델 설계 및 회원정보, 로그인 API 구현',
-        },
-        // { content: 'https://bzero.cf/', href: 'https://bzero.cf/' },
-        // { content: 'https://github.com/People-zero/Bzero', href: 'https://github.com/People-zero/Bzero' },
       ],
     },
   ],
